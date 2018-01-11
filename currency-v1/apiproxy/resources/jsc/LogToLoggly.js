@@ -4,9 +4,7 @@ var logglyBasePath = context.getVariable('proxy.basepath');
 var logglyUrl = logglyUrlScheme + '://' + logglyUrlDomain + logglyBasePath + '/logs';
 context.setVariable('debug.logglyUrl', logglyUrl);
 
-for (var x = 0; x++; x < 3) {
-	1 + 2;	
-}
+//do something
 
 var log = {
 	org: context.getVariable('organization.name'),
